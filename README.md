@@ -3,7 +3,7 @@
 ## Overview
 SAM2 is a powerful image and video segmentation framework developed by Meta Platforms, Inc. It enables users to perform segmentation tasks on images and videos. This repository provides a Flask web application that allows users to upload chip images, generate masks, classify components, and retrain models.
 
-![Image Segmentation Tool](https://github.com/facebookresearch/segment-anything-2/blob/main/assets/model_diagram.png?raw=true)
+![Image Segmentation Tool](https://github.com/IThioye/final_project_sam_yolo/blob/master/main/sam.jpg)
 
 ## Features
 - Upload images for segmentation using SAM
