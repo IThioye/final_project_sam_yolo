@@ -21,11 +21,10 @@ SAM2 is a powerful image and video segmentation framework developed by Meta Plat
 git clone https://github.com/IThioye/final_project_sam_yolo.git
 ```
 
-2. In the project folder, create:
+2. In the project folder, create your virtual environment:
 ```bash
 python3 -m venv venv
 venv\Scripts\activate
-pip install -r requirements.txt
 ```
 3. Install the required packages:
 ```bash
