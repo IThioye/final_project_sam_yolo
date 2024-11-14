@@ -28,22 +28,20 @@ SAM2 is a powerful image and video segmentation framework developed by Meta Plat
 git clone https://github.com/IThioye/final_project_sam_yolo.git
 ```
 
-2. Install the required packages:
+2. In the project folder, create:
+```bash
+python3 -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+```
+3. Install the required packages:
 ```bash
 pip install -r requirements.txt
 ```
 
-## Configuration
-The configuration for the application can be found in `app.py`. You can adjust the following parameters:
-- `UPLOAD_FOLDER`: Directory for uploaded images
-- `SAM_RESULT_FOLDER`: Directory for saving SAM results
-- `YOLO_RESULT_FOLDER`: Directory for saving YOLO results
-- Model paths for YOLO and SAM
-
-
 ## Usage
 
-1. Start the Flask application:
+1. Start the Flask application from the project folder with the virtual environment activated:
 ```bash
 python app.py
 ```
