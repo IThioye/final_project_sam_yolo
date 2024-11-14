@@ -11,15 +11,8 @@ SAM2 is a powerful image and video segmentation framework developed by Meta Plat
 - Real-time updates through WebSocket for training progress
 
 ## Requirements
-- Python 3.11+
-- Flask
-- Flask-SocketIO
-- OpenCV
-- NumPy
-- Matplotlib
-- PyTorch
-- Ultralytics YOLO
-- Segment Anything Model 2 (SAM2)
+- Python 3.11 +
+- All the librairies from the requirements.txt
 
 ## Installation
 
