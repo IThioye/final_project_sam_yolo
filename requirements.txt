@@ -56,9 +56,9 @@ strawberry-graphql>=0.243.0
 submitit>=1.5.1
 sympy==1.13.1
 tensorboard>=2.17.0
-tensordict==0.5.0  
-torch==2.3.1
-torchvision==0.18.1
+tensordict>=0.5.0
+torch==2.5.1
+torchvision==0.20.1
 tqdm==4.66.6
 typing_extensions==4.12.2
 tzdata==2024.2
