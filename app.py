@@ -34,7 +34,7 @@ class Config:
     ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
     MAX_CONTENT_LENGTH = 16 * 1024 * 1024  # 16MB max file size
     SAM_CHECKPOINT = os.path.join(BASE_DIR, 'static', 'sam',"sam_vit_h_4b8939.pth")
-    SAM_2 = os.path.join(BASE_DIR, 'static', 'sam',"sam2.1_hiera_large.pt")
+    SAM_2 = os.path.join(BASE_DIR, 'static', 'sam',"sam2.1_hiera_tiny.pt")
     YOLO_PATH = os.path.join(BASE_DIR, 'static', 'yolo', "model_yolo.pt")
     RETRAINED_MODEL_PATH = os.path.join(BASE_DIR, 'static', 'yolo', "model_retrained.pt")
     DATA_PATH = os.path.join(BASE_DIR, 'static', 'yolo','dataset_yolo', "data.yaml")
@@ -59,7 +59,7 @@ except Exception as e:
 
 try:
     sam2_checkpoint = app.config['SAM_2']
-    model_cfg = "configs/sam2.1/sam2.1_hiera_l.yaml"
+    model_cfg = "configs/sam2.1/sam2.1_hiera_t.yaml"
 
     sam2_model = build_sam2(model_cfg, sam2_checkpoint, device="cpu")
     predictor = SAM2ImagePredictor(sam2_model)
