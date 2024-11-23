@@ -1,7 +1,7 @@
 # SAM2 + YOLO : Image Annotation and Image Classification for void and components in printed circuit board
 
 ## Overview
-SAM2 is a powerful image and video segmentation framework developed by Meta Platforms, Inc. It enables users to perform segmentation tasks on images and videos. This repository provides a Flask web application that allows users to upload chip images, generate masks, classify components, and retrain models.
+SAM2 is a powerful image and video segmentation framework developed by Meta Platforms, Inc. It enables users to perform segmentation tasks on images and videos. This repository provides a Flask web application which main features are :
 
 ## Features
 - Upload images for segmentation using SAM
