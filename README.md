@@ -2,13 +2,14 @@
 
 ## Overview
 SAM2 is a powerful image and video segmentation framework developed by Meta Platforms, Inc. It enables users to perform segmentation tasks on images and videos. This repository provides a Flask web application which main features are :
-
-## Features
 - Upload images for segmentation using SAM
 - Generate masks for images and visualize results
 - Classify images and obtain area statistics for components
 - Retrain the YOLO model with new datasets
 - Real-time updates through WebSocket for training progress
+
+## Deployment
+You can test the final app using the following link: https://ibrahimathioye-sam-yolo-flask.hf.space/ 
 
 ## Requirements
 - Python 3.11 +
